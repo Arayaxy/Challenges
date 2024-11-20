@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Sora";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f9f9f9;
+}
+.card {
+  width: 400px;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);
+}
+.card-pic img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  padding: 15px;
+}
+.item-tag {
+  padding-left: 15px;
+}
+.tag {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 600;
+  color: #7c19ee;
+  background-color: #f2eafd;
+  border-radius: 20px;
+  padding: 4px 10px;
+  margin-bottom: 10px;
+}
+.title {
+  padding-left: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #20293a;
+}
+.text {
+  padding-left: 12px;
+  text-align: inherit;
+  font-size: 14px;
+  color: #394150;
+  line-height: 1.6;
+  margin: 5px;
+}
+.author {
+  padding: 15px;
+  border-top: 1px solid #e5eaf0;
+  margin-top: 15px;
+  font-size: 14px;
+  color: #394150;
+}
